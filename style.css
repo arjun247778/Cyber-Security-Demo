@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,9 @@ nav .navbar{
     position: fixed;
 }
 .navbar{
-    height: 100px;
+    font-family: "Segoe UI";
+
+    height: 144px;
     width: 100%;
     background-color: #f2f3f7;
     display: flex;
@@ -19,10 +22,11 @@ nav .navbar{
 
 }
 .navbar h3{
-    font-family: "Bellota Text";
+    /* font-family: "Bellota Text"; */
     color: #47b5ed;
     font-size: 44px;
-    font-weight: 700;
+    font-weight: 400;
+    cursor: pointer;
 }
 a {
     text-decoration: none;
@@ -32,12 +36,32 @@ a {
     display: flex;
     flex-direction: row;
     background-color: transparent;
-    font-family: "Bellota Text",display;
+    /* font-family: "Bellota Text",display; */
 
 
 }
 .navitems li,a{
+    font-weight: 400;
     margin: 34px;
     font-size: 19.4px;
     color: #6c758f;
+}
+.welcomepage{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #0196e3;
+    color: #ffffff;
+
+}
+.welcomepage div{
+    width: 50%;
+}
+.welcomepage strong{
+    font-family: "segoe UI";
+    font-size: 50px;
+
 }
